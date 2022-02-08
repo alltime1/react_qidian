@@ -1,0 +1,59 @@
+.right_detail p,.right_detail span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: calc(100vw - 3rem);
+  margin-left: .2rem;
+}
+.right_detail{
+ justify-content: space-between;
+ padding: 6px 0;
+}
+.right_detail p{
+  font-weight: 500;
+  font-size: 18px;
+}
+.right_detail span{
+  font-weight: 300;
+  font-size: 16px;
+}
+.more{
+  position: absolute;
+  right: 0;
+  top: 1px;
+}
+.right_detail .check_type{
+  font-size: 12px;
+  color: rgb(75, 75, 75);
+  background-color: rgba(218, 218, 218, 0.726);
+  padding:2px 5px;
+  width: fit-content;
+  margin: 0;
+  margin-right: 5px;
+}
+.book_posi{
+  position: relative;
+  width: 1.6rem;
+ min-height: 1.88rem;
+ overflow: hidden;
+}
+.anima_skew{
+  width: 1.1rem;
+  border-radius: .1rem;
+  position:absolute;
+  bottom:.2rem;
+  z-index: 1;
+  transition:all .2s;
+ 
+  right:.24rem;
+  transform-origin: right bottom;
+  animation: skews .3s forwards;
+}
+@keyframes skews{
+  from {
+    transform:skewX(0);
+  }
+  to{
+    transform:skewX(-10deg);
+  }
+}

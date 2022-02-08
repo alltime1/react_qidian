@@ -1,0 +1,88 @@
+header{
+  display: flex;
+  padding: .2rem;
+  height: 50px;
+}
+.book_l{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.book_l img{
+  width: .28rem;
+  height: .28rem;
+  margin: 0 .2rem;
+}
+.book_l span{
+  font-size: 22px;
+}
+.search{
+  background-color: #fff;
+  flex: 1;
+  overflow: hidden;
+  height: 30px;
+  border-radius: 30px;
+  position: relative;
+}
+.anima{
+  position: absolute;
+  top: 0;
+
+}
+.search li{
+  display: flex;
+  align-items: center;
+}
+.book_l .history , .book_l .manage {
+  width: .5rem;
+  height: .5rem;
+  object-fit: cover;
+}
+.tip{
+  display: flex;
+  padding: .2rem .24rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.tip p{
+  margin-left: .2rem;
+  font-size: 14px;
+  color: rgb(92, 91, 91);
+}
+.canlender{
+  position: relative;
+  height: 24px;
+}
+.canlender img{
+  width: 25px;
+  height: 24px;
+} 
+.canlender span{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 6px;
+  font-size: 12px;
+  color: #fff;
+}
+.scroll_book{
+  height: 100%;
+  overflow-y: auto;
+  padding-bottom:120px;
+  box-sizing: border-box;
+
+}
+.find_more{
+  color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  text-align: center;
+  width: fit-content;
+  padding: 9px 18px;
+  height: 20px;
+
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
